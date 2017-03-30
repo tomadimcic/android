@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"  
+   android:layout_height="wrap_content"  
+   android:layout_gravity="center"  
+   android:layout_margin="0dip"  
+   android:background="@drawable/alert_background"  
+   android:orientation="vertical"  
+   android:paddingBottom="35dip"  
+   android:paddingLeft="15dip"  
+   android:paddingRight="15dip"  
+   android:paddingTop="0dip"  >
+   
+    <TextView  
+     android:id="@+id/dialogTitle"  
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"  
+     android:layout_marginTop="20dip"  
+     android:background="#00000000"  
+     android:gravity="center"  
+     android:text="Choose icon"  
+     android:textColor="#fff"  
+     android:textSize="22sp"  
+     android:textStyle="bold" >  
+   </TextView>
+   
+    <RelativeLayout
+     android:layout_width="fill_parent"  
+   android:layout_height="wrap_content" 
+   android:layout_below="@+id/dialogTitle" 
+   android:layout_gravity="center"  
+   android:orientation="vertical"   >
+
+    <ImageButton
+        android:id="@+id/launcher_ikona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="33dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/switch_ikona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dimmer_ikona"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/launcher_ikona"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_switch" />
+
+    <ImageButton
+        android:id="@+id/dimmer_ikona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sijalica_ikona"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/switch_ikona"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_dimmer" />
+
+    <ImageButton
+        android:id="@+id/sijalica_ikona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/launcher_ikona"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/dimmer_ikona"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_sijalica" />
+
+    <ImageButton
+        android:id="@+id/roletne_ikona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dimmer_ikona"
+        android:layout_alignTop="@+id/sijalica_ikona"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_roletne" />
+
+    <ImageButton
+        android:id="@+id/taster_ikona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sijalica_ikona"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/dimmer_ikona"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_taster" />
+</RelativeLayout>
+</RelativeLayout>

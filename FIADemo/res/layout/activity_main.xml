@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/nfc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button"
+        android:text="NFC Check" />
+
+    <Button
+        android:id="@+id/qr_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/nfc_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/nfc_button"
+        android:background="@drawable/button"
+        android:text="QR/Bar code reader" />
+    
+    <Button
+        android:id="@+id/beacons_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/qr_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/qr_button"
+        android:background="@drawable/button"
+        android:text="Beacons" />
+
+    <Button
+        android:id="@+id/add_beacon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/beacons_button"
+        android:layout_alignRight="@+id/beacons_button"
+        android:layout_below="@+id/beacons_button"
+        android:background="@drawable/button"
+        android:text="Add beacon" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/add_beacon_button"
+        android:layout_alignRight="@+id/add_beacon_button"
+        android:layout_below="@+id/add_beacon_button"
+        android:background="@drawable/button"
+        android:text="Settings" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="IoT6 Demo app"
+        android:textSize="21sp" />
+
+</RelativeLayout>

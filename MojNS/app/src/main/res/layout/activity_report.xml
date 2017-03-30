@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="0dip"
+        android:background="#476798"
+        >
+
+        <RelativeLayout
+            android:id="@+id/titlesub"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="-5dip"
+            android:background="@drawable/panorama_tvrdjava"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/logo"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/plus"
+                android:background="@drawable/plus"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/toolbox_report"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="28dp"
+                android:layout_marginLeft="80dp">
+            </TextView>
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:id="@+id/logout"
+                android:src="@drawable/log_out"
+                android:background="@drawable/background1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title">
+
+    <RelativeLayout
+        android:id="@+id/toolbarlinearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="17dp">
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bcbcbc"
+                android:layout_marginTop="10dp"
+                android:text="@string/topic"/>
+
+            <Spinner
+                android:id="@+id/spinn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="-8dp"
+                android:layout_below="@+id/topic">
+            </Spinner>
+
+        <TextView
+            android:id="@+id/problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/problem"
+            android:layout_below="@+id/spinn"/>
+        <Spinner
+            android:id="@+id/spinn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="-8dp"
+            android:layout_below="@+id/problem">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/date"
+            android:layout_below="@+id/spinn1"/>
+
+        <TextView
+            android:hint="@string/selectdate"
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="7dp"
+            android:clickable="true"
+            android:textColor="#000000"
+            android:background="#FFFFFFFF"
+            android:layout_below="@+id/date"/>
+
+            <ImageView
+                android:id="@+id/cameraBtn"
+                android:layout_width="63dp"
+                android:layout_height="43dp"
+                android:layout_alignTop="@+id/date"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/add_photo">
+            </ImageView>
+
+       <!-- <TextView
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#bcbcbc"
+            android:text="*"
+            android:layout_alignTop="@+id/cameraBtn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"/> -->
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/dateText"
+                android:textColor="#bcbcbc"
+                android:text="@string/address"/>
+
+            <EditText
+                android:hint="@string/addresshint"
+                android:id="@+id/adressTxt"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="17dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address">
+            </EditText>
+
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="#bcbcbc"
+                android:text="@string/comment"
+                android:layout_below="@+id/adressTxt"/>
+
+
+            <EditText
+                android:id="@+id/reporttext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="17dp"
+
+                android:hint="@string/commenthint"
+                android:inputType="textMultiLine"
+                android:layout_below="@+id/comment">
+            </EditText>
+
+        <Button
+            android:id="@+id/reportbtn"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/reporttext"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/green_btn"
+            android:text="@string/next"
+            android:textColor="@color/White"
+            android:layout_toLeftOf="@+id/buttonCancelProfile"/>
+
+        <Button
+            android:id="@+id/buttonCancelProfile"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/reporttext"
+            android:layout_alignTop="@+id/reportbtn"
+            android:text="@string/cancelButton"
+            android:background="@drawable/gray_btn"
+            android:textColor="@color/White"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="17dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

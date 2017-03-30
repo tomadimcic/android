@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">mojBač</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="version">Version 1.3</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signin">SigninActivity</string>
+    <string name="title_activity_main_activity_list">MainActivityList</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="set_location">Set location</string>
+    <string name="toolbox_report">New event</string>
+    <string name="toolbox_report_msg">*You can drag and drop pin</string>
+    <string name="toolbox_myevents">My Events</string>
+    <string name="reported_problems">Reported problems</string>
+    <string name="empty_events_list">Empty events list</string>
+    <string name="contacting_server">Contacting Server...</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="no_connectivity_title">No internet connection</string>
+    <string name="no_connectivity">Please turn on WiFi or 3G Network Data Access</string>
+
+    <string name="welocome">Welcome </string>
+    <string name="access_credentials">Your access credentials are eider expired or not valid. Try again to login!</string>
+
+    <string name="profile_title">My profile</string>
+    <string name="profile_report_mandatory_fields">You must populate all fields in your profile in order to make a report!</string>
+    <string name="profile_report_alert">In order to send a report you must have profile fields filled in. To make anonymous report please call  021 / 4872 544</string>
+    <string name="profile_message">Your events will be higher rated if you fill this profile form.</string>
+    <string name="firstname">First name: *</string>
+    <string name="entername">Enter name</string>
+    <string name="lastname">Last Name: *</string>
+    <string name="entersurname">Enter surname</string>
+    <string name="email">E mail: *</string>
+    <string name="enteremail">Enter email</string>
+    <string name="phonenumber">Phone number:</string>
+    <string name="enterphonenumber">Enter phone number</string>
+    <string name="submitButton">Submit</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+    <string name="report_title">New Event</string>
+    <string name="next">Next</string>
+    <string name="report">Report</string>
+    <string name="report_problem">REPORT PROBLEM</string>
+    <string name="topic">Topic: *</string>
+    <string name="problem">Problem: *</string>
+    <string name="date">Date: </string>
+    <string name="expiration">Exp date: </string>
+    <string name="commenthint">Introduce your comment here</string>
+    <string name="selectdate">Select date...</string>
+    <string name="selectexpdate">Select exp date...</string>
+    <string name="addresshint">Enter address..</string>
+    <string name="comment">Comment: </string>
+    <string name="address">Address: </string>
+    <string name="position">Set position</string>
+    <string name="locating">Locating!</string>
+    <string name="gps_warning">Do you want to enable GPS?</string>
+    <string name="no">No</string>
+    <string name="settings">Settings</string>
+
+    <string name="succesfully_signin">An confirmation mail is sent to your email address!</string>
+    <string name="succesfully_signin_title">Registered</string>
+    <string name="succesfully_signin_message">Please check your mail to activate your account!</string>
+    <string name="succesfully_forgot_message">Please check your mail to reset your password!</string>
+    <string name="succesfully_reset_message">Password updated successfully!</string>
+    <string name="succesfully_change_message">Password successfully changed!</string>
+    <string name="not_succesfully_signin_title">Not registered</string>
+    <string name="not_succesfully_signin_message_1">Email already exists. If you forgot your password please use forgot password link!</string>
+    <string name="not_succesfully_signin_message_2">Unable to create user</string>
+    <string name="confirm">Ok</string>
+
+    <string name="mail_confirmed">Mail confirmed</string>
+
+    <string name="succesfully_changed_title">Changed</string>
+
+    <string name="succesfully_reset_title">Reset</string>
+
+    <string name="forgot_title">Mail sent</string>
+    <string name="error">Error</string>
+
+    <string name="remember">Remember me</string>
+    <string name="stay_logged_in">Stay logged in</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_et">email</string>
+    <string name="password_et">password</string>
+
+    <string name="login">Log in</string>
+    <string name="register">Register</string>
+    <string name="about">About</string>
+    <string name="change">Change password</string>
+    <string name="forgot">Forgot password</string>
+    <string name="resend">You have not received a confirmation email?</string>
+    <string name="reset">Reset</string>
+    <string name="terms_and_conditions_checkbox">I agree with the </string>
+    <string name="terms_and_conditions"><u>Terms and Conditions</u></string>
+
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirme_password">Confirm\npassword</string>
+    <string name="old_password_et">old password</string>
+    <string name="change_btn">Change</string>
+    <string name="forgot_btn">Send</string>
+
+    <string name="mail_already_confirmed">Mail is already confirmed</string>
+    <string name="not_registered">You have to register first</string>
+    <string name="not_logged">You have to log in at least once in order to change password</string>
+
+    <string name="error_empty_user_pass">Please fill all empty fields!</string>
+    <string name="error_empty_email">Please enter email</string>
+    <string name="error_pass_lenght">Password must contains at least 6 characters</string>
+    <string name="error_pass_confirmed">Password and confirmed password does not match</string>
+    <string name="error_no_user">Email or password is not correct!</string>
+    <string name="error_email_not_confirmed">Email not confirmed! Please check your email.</string>
+    <string name="error_email_not_found">Email not found.</string>
+    <string name="error_reset_message">Password not updated! An error occurred!</string>
+    <string name="error_change_message">Password is not changed! An error occurred!</string>
+    <string name="error_response">Communication failed, please try again!</string>
+    <string name="error_terms">In order to register you have to agree with the terms and conditions by checking the checkbox</string>
+
+    <string name="picturechoicemessage">Select the option for attaching a picture</string>
+    <string name="deletephoto">Delete picture</string>
+    <string name="fromgallery">From the gallery</string>
+    <string name="takepict">Take a Picture</string>
+    <string name="picturechoicetitle">Attach picture</string>
+
+    <string name="gallery_title">Picture from Gallery</string>
+    <string name="done">Done</string>
+    <string name="dateSliderTitle">Selected date</string>
+
+    <string name="datecomprobation">The exp date is before the start date</string>
+    <string name="datecomprobation2">The exp date is before today</string>
+    <string name="emptyfield">Please complete mandatory fields</string>
+    <string name="nointernetaccess">Make sure that you have internet access</string>
+    <string name="marker_position">Position of the event</string>
+
+    <string name="okButton">OK</string>
+    <string name="communication_error">Could not contact server</string>
+    <string name="published">Your event was successfuly published</string>
+    <string name="could_not_publish">Your event could not be published...try again later</string>
+    <string name="title_activity_map_positioning">Map</string>
+
+    <string name="my_events_time">Time: </string>
+    <string name="my_events_date">Date</string>
+    <string name="my_events_description">Description:</string>
+    <string name="my_events_category">Category:</string>
+    <string name="my_events_status">Status:</string>
+    <string name="title_activity_base_main">BaseMainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_map">Map</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="about_txt">
+        Ovde možete napraviti nalog koji će Vam omogućiti pristup servisima realizovanim u okviru CLIPS projekta (www.clips-project.eu) u opštinama Novi Sad, Bač i Odžaci.\n\nCLIPS pilot projekat želi da vam pokaže kako „cloud“ tehnologija primenjena na gradskim (opštinskim) servisima može dovesti do njihove optimizacije i kako može olakšati građanima upotrebu ovih servisa.\nNekoliko servisa je obuhvaćeno pilot projektom, kao i nekoliko opština u Vojvodini: grad Novi Sad i opštine Bač i Odžaci.\n\n1. Novi Sad: Pristup evidenciji računa objedinjene naplate u JKP Informatika na clips.dunavnet.eu\nNa primeru JKP Informatika, „cloud“ tehnologija omogućiće Vam da pristupite evidenciji vaših računa kod JKP Informatika i da proverite njihov status. Zatim, da umesto odlaska u kancelarije JKP Informatika možete elektronski, samostalno da promenite broj članova domaćinstva ukoliko je do promene došlo, a vaši računi će se automatski prilagoditi broju članova domaćinstva. Takođe, možete pogledati i pregled komunalne opremljenosti novosadskih ulica kao i ponude osiguravajućih kuća, a ubuduće će biti dostupna i opcija plaćanja računa elektronski.\n\nKlikom na dugme „Registracija“ bićete upućeni na stranicu na kojoj možete kreirati vaš nalog za pristup portalu. Nakon registracije, možete pristupiti clips.dunavnet.eu gde ćete popuniti podatke o svom stanu i nakon toga ćete moći da pristupite svojim računima i ostalim funkcijama servisa.\n\n2. Novi Sad: Platforma koja sadrži javno dostupne podatke grada Novog Sada\n\nAko ste kompanija ili „freelance developer“ i želite da iskoristite „open data“ koje gradska uprava Novog Sada daje, pristupite ckan-clips.dunavnet.eu i istražite mogućnosti uključivanja pretrage „open data“ u Vašu aplikaciju ili servis. Svi ostali mogu da vide podatke o komunalnoj opremljenosti pojednih gradskih zona na osnovu podataka koje JKP Informatika ima.\n\n3. Novi Sad, Bač, Odžaci: Prijava komunalnih problema putem mobilne aplikacije\nU okviru projekta CLIPS kreirane su mobilne aplikacije za pametne telefone putem kojih je moguće prijaviti neki od komunalnih problema u zajednici, domaćinstvu, na ulici, u gradu:\n\n-mojNS: aplikacija omogućava prijavu određenih komunalnih problema odgovarajućim gradskim službama. Svaka prijava se prosleđuje gradskom dispečerskom centru Komunalne policije grada, a odatle nadležnim službama.\n\n-mojBač i mojiOdžaci: aplikcije za brzo i jednostavno prijavljivanje komunalnih problema uz dodatnu kategoriju za prijavu tzv. „situacioni centar“ putem koje se mogu prijaviti vremenske neprilike, zemljotres, poplave i sl.\n\nViše detalja o CLIPS projektu možete naći na www.clips-project.eu.
+    </string>
+    <string name="terms_txt"><b>CLIPS Portal Privacy Statement</b>\n\nCLIPS portal (hereinafter: Portal) respects your privacy and is committed to the protection of personal data you submit to us. We would like to present you the following principles that regulate our privacy policy.\n\n
+                            <b>Personal Data Privacy Policy</b>\n\nPersonal Data protection is guaranteed. Collection, holding, handling, and usage of personal data is performed in accordance with the Law on Protection of Personal Data ("Official Gazette of RS", No. 97/08). Personal Data shall not be used for purposes other than the ones they were collected for, except for the purpose of conducting criminal proceedings or protection of security of the Republic of Serbia, in the manner stipulated by the Law. All necessary data protection measures are undertaken, in accordance with the determined standards and procedures, which are necessary in order to protect the data from loss, destruction, unauthorized access, change, publication, and any other abuse.
+                            The collected information is not disclosed, or shared with other organizations outside the Portal preparation and editing system, except in the cases stipulated by the Law. The data shall not be used for the purposes which are not in accordance with the law or which may otherwise be detrimental to you, including the violation of your privacy.
+                            A person has the right to revoke his/her acceptance to data handling in accordance with the Law on Protection of Personal Data.\n\n
+                            <b>Data we collect</b>\n\nWe collect personal data like name, personal identification number, address, phone number, or e-mail address only when they are voluntarily submitted in the offered forms or by other means of communication, exclusively for the purpose of compliance with the user requests, in order to provide the service the user requested.
+                            We also collect data on Portal usage (cookies) and other technical data which are not personal, which enable us to facilitate your Portal visits and to make them more efficient and cost effective by providing you a user-friendly access and recognizing you when you return to the Portal.
+                            A cookie is a small file with data which is transferred from the Portal to your computer hard disk. The Portal sends a cookie when you visit it, when you pay, browse or personalize the Portal, or register for certain services. The cookie cannot read personal data from your hard disk or read the files of the cookies created by other web sites. The data a cookie may contain are only the ones you submit yourself. Accepting the cookies used on the Portal enables us to receive information on your browsing habits, which we may use in order to personalize your actions and establish the user movement models. We perform this in order to determine the Portal information usefulness for the users and in order to establish the efficiency of our navigational system in helping the users reach those information.
+                            Cookies are typically classified as "session" cookies or "permanent" cookies. Session cookies are not retained on your computer after you close the browser. Permanent cookies are retained on your computer until you delete them or until their deadline expires.
+                            In order to improve and customize the Portal to meet your needs, we collect data which are not personal, for example data on browsing program type, operating system, and pages you visited.
+                            The Portal ensures security of the data you submit to us by industrially standardized physical, electronic, and management procedures. When necessary, the Portal uses SSL encryption in order to increase sensitive data transfer security. Within the Portal, data is held on the controlled servers with limited access.\n\n
+                            <b>Other</b>\n\nAny use of the Portal is subject to Terms and Conditions described on this page.
+                            In case you have any questions or dilemmas regarding our collection, usage or disclosure of your personal data, please contact us to the following e-mail address: clips@nsinfo.co.rs.
+                            The content of the Portal Privacy Statement may be modified at any time without prior notice and user consent. All changes to the Portal Privacy Statement shall be published on this page.
+    </string>
+
+
+</resources>

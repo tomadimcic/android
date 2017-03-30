@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="ScrollLayout">
+        <attr name="labelerClass" format="string" value="dunavnet.com.mojns.util.labeler"/>
+        <attr name="labelerFormat" format="string"/>
+        <attr name="childWidth" format="dimension"/>
+        <attr name="childHeight" format="dimension"/>
+    </declare-styleable>
+</resources>

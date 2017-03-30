@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Facebook App Settings -->
+    <string name="app_id">331228620350257</string>
+    
+    
+    <string name="app_name">Najbolje Kafane</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="title">Najbolje kafane</string>
+    <string name="kafane">Kafane</string>
+    <string name="rezervacije">Rezervacije</string>
+    <string name="fotografije">Fotografije</string>
+    <string name="restorani">Restorani i pivnice</string>
+    <string name="show_profile">Hello world!</string>
+    <string name="brojGlasova">glasova: </string>
+    
+    <string name="empty_kafane_list">Nema dostupnih kafana!</string>
+    <string name="empty_desavanja_list">Nema dostupnih dešavanja!</string>
+    <string name="empty_pesme_list">Nema dostupnih pesama!</string>
+    <string name="btn_posalji_sliku">Pošalji sliku</string>
+    <string name="search_hint">Pretražite</string>
+    <string name="slanje_slike">Šaljem sliku&#8230;</string>
+    <string name="slanje_slike_uspesno">Slika uspešno poslata.</string>
+    <string name="slanje_slike_greska">Slika nije poslata, probajte ponovo.</string>
+    <string name="ucitavanje_slike_greska">Greška pri učitavanju fotografije, probajte ponovo</string>
+    <string name="ucitavanje_galerije">Učitavam galeriju&#8230;</string>
+    <string name="ucitavanje_galerije_greska">Greška pri učitavanju galerije, probajte ponovo.</string>
+    <string name="sve_slike">Naše slike</string>
+    <string name="vase_slike">Slike korisnika</string>
+    <string-array name="array_tabovi_kafane">
+        <item>Kafane</item>
+        <item>Dešavanja</item>
+        <item>Pesme</item>
+        <item>Blizu mene</item>
+    </string-array>
+    
+    <string-array name="array_tabovi_restorani">
+        <item>Restorani</item>
+        <item>Dešavanja</item>
+        <item>Pesme</item>
+        <item>Blizu mene</item>
+    </string-array>
+    
+    <string-array name="array_tabovi_kafana">
+        <item>Info</item>
+        <item>Galerija</item>
+        <item>Oceni</item>
+        <item>Lokacija</item>
+        <item>Dešavanja</item>
+    </string-array>
+    
+    <string name="search_hint_kafane">Pretražite kafane</string>
+	<string name="search_hint_pesme">Pretražite pesme</string>
+	<string name="search_hint_desavanja">Pretražite dešavanja</string>
+	<string name="izvodjaci">Izvođači</string>
+	<string name="svi_izvodjaci">Svi izvođači</string>
+	<string name="gps_upozorenje">Vaš GPS je isključen. Da li želite da ga uključite?</string>
+	
+	<string name="dialog_splash">Poštovani koriniče, uživajte u aplikaciji Najbolje Kafane. Prilikom prvog pokretanja ćemo skinuti bazu kafana i pesama što može da potraje. Molim vas imajte strpljenja!</string>
+	<string name="obavestenje_nema_desavanja">Nema najavljenih dešavanja za večeras!</string>
+	<string name="nema_informacija_broj_telefona">Vlasnik nije omogućio broj za rezervacije!</string>
+	
+	<string name="uspesno_glasanje">Hvala Vam što ste glasali!</string>
+	<string name="dupli_glas">Već ste iskoristili svoj glas za danas. Možete sutra ponovo da glasate.</string>
+	<string name="neuspelo_glasanje">Na žalost, vaš glas nije zabeležen. Pokušajte ponovo!</string>
+	
+	<string name="problemi_sa_internet_konekcijom">Na žalost, postoje problemi sa internet konekcijom!</string>
+	<string name="gps_nije_ukljucen">Na žalost, GPS nije uljučen!</string>
+	<string name="ukljucite_gps">Uključite GPS!!!</string>
+	
+	<string name="uspesno_ocenjivanje">Hvala Vam što ste glasali!</string>
+	<string name="dupla_ocena">Već ste iskoristili svoj glas za danas. Možete glasati sutra ponovo.</string>
+	<string name="neuspelo_ocenjivanje">Na žalost vaše ocene nisu zabeležene. Pokušajte ponovo!</string>
+	
+	<string name="nema_slika">Nema slika</string>
+	
+</resources>

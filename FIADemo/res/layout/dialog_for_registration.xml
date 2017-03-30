@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+<RelativeLayout 
+     android:layout_width="fill_parent"  
+   android:layout_height="wrap_content"  
+   android:layout_gravity="center"  
+   android:layout_margin="0dip"  
+   android:background="@drawable/alert_background"  
+   android:orientation="vertical"  
+   android:paddingBottom="45dip"  
+   android:paddingLeft="0dip"  
+   android:paddingRight="0dip"  
+   android:paddingTop="0dip"  >
+   
+
+    <TextView  
+     android:id="@+id/dialogTitle"  
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"  
+     android:layout_marginTop="20dip"  
+     android:background="#00000000"  
+     android:gravity="center"  
+     android:text="Code does not exist"  
+     android:textColor="#fff"  
+     android:textSize="22sp"  
+     android:textStyle="bold" >  
+   </TextView>
+
+    <TextView
+        android:id="@+id/message_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dialogTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="IMEI:"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/message_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt"
+        android:text="Location:"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/message_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt1"
+        android:text="Code:"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/message_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt2"
+        android:text="Username:"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/message_txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt3"
+        android:text="Address:"
+        android:textSize="19sp" />
+    
+    <TextView
+        android:id="@+id/message_txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt4"
+        android:text="Devace name:"
+        android:textSize="19sp" />
+    
+    <TextView
+        android:id="@+id/message_txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt5"
+        android:text="Devace protocol:"
+        android:textSize="19sp" />
+    
+    <TextView
+        android:id="@+id/message_txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt6"
+        android:text="IPv6 address:"
+        android:textSize="19sp" />
+    
+    <TextView
+        android:id="@+id/message_txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt7"
+        android:text="Variable name:"
+        android:textSize="19sp" />
+    
+    <TextView
+        android:id="@+id/message_txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt8"
+        android:text="Variable value:"
+        android:textSize="19sp" />
+    
+    <TextView
+        android:id="@+id/message_txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/message_txt9"
+        android:text="Variable unit:"
+        android:textSize="19sp" />
+    
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/message_txt10"
+        android:background="@drawable/button"
+        android:text="Cancel"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/cancel_btn"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_below="@+id/cancel_btn"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:text="OK"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt"
+        android:layout_toRightOf="@+id/message_txt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="TextView" />
+    
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt1"
+        android:layout_toRightOf="@+id/message_txt1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+            android:singleLine="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt2"
+        android:layout_toRightOf="@+id/message_txt2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="TextView" />
+    
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt3"
+        android:layout_toRightOf="@+id/message_txt3"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp" />
+    
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt4"
+        android:layout_toRightOf="@+id/message_txt4"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        <requestFocus />
+        </EditText>
+        
+    <EditText
+        android:id="@+id/dev_name"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt5"
+        android:layout_toRightOf="@+id/message_txt5"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        </EditText>
+        
+    <EditText
+        android:id="@+id/dev_protocol"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt6"
+        android:layout_toRightOf="@+id/message_txt6"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        </EditText>
+        
+    <EditText
+        android:id="@+id/ipv6_address"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt7"
+        android:layout_toRightOf="@+id/message_txt7"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        </EditText>
+        
+    <EditText
+        android:id="@+id/var_name"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt8"
+        android:layout_toRightOf="@+id/message_txt8"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        </EditText>
+        
+    <EditText
+        android:id="@+id/var_value"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt9"
+        android:layout_toRightOf="@+id/message_txt9"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        </EditText>
+        
+    <EditText
+        android:id="@+id/var_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignRight="@+id/cancel_btn"
+        android:layout_alignTop="@+id/message_txt10"
+        android:layout_toRightOf="@+id/message_txt10"
+        android:layout_marginLeft="20dp"
+        android:textSize="13dp"
+        >
+        </EditText>
+
+</RelativeLayout>
+</ScrollView>

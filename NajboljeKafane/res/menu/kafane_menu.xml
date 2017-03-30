@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/selector_icon_favourites"
+        android:orderInCategory="0"
+        android:showAsAction="always"
+        android:singleLine="true"
+        android:title=""/>
+    <item
+        android:id="@+id/menu_search"
+        android:actionLayout="@layout/search_layout"
+        android:icon="@drawable/selector_icon_search"
+        android:orderInCategory="0"
+        android:showAsAction="always|collapseActionView"
+        android:singleLine="true"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_city"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/selector_icon_list"
+        android:title="City">
+    </item>
+
+</menu>

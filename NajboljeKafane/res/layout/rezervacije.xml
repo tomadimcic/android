@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backgroundpaperclean">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="58dp"
+                android:gravity="left"
+                android:text="CALL CENTAR"
+                android:textColor="#000"
+                android:textSize="30dip" />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:gravity="left"
+                android:text="REZERVACIJE"
+                android:textColor="#000"
+                android:textSize="24dip" />
+
+            <ImageButton
+                android:id="@+id/pozovi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/pozovi"
+                android:gravity="bottom"
+                android:src="@drawable/button_press" />
+
+    <RelativeLayout
+        android:id="@+id/toolbarlinearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="92dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        
+        <TextView
+                android:id="@+id/reklama_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Pozovite!"
+                android:textColor="#b11944" />
+
+        <ImageView
+            android:id="@+id/reklama_ikona"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:scaleType="centerCrop"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/reklama" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pozovi"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Pozivom možete rezervisati mesto u bilo kojoj kafani ili restoranu!"
+        android:textColor="#000" />
+
+</RelativeLayout>

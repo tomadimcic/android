@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dunavnet.com.mojns.activities.MapPositioningActivity">
+
+        <RelativeLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="130dip"
+            android:layout_marginBottom="0dip"
+            android:layout_marginTop="0dip"
+            android:background="#034219"
+            >
+
+            <RelativeLayout
+                android:id="@+id/titlesub"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/backgrond"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:layout_width="71dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/logo"
+                    android:src="@drawable/logo"
+                    android:background="@drawable/logo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/plus"
+                    android:background="@drawable/location"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/set_location"
+                    android:textColor="#ffffffff"
+                    android:textSize="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginLeft="80dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/toolbox_report_msg"
+                    android:textColor="#ffffffff"
+                    android:textSize="12dp"
+                    android:layout_alignBottom="@+id/plus"
+                    android:layout_alignLeft="@+id/title2"
+                    android:layout_alignStart="@+id/title2">
+                </TextView>
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:id="@+id/logout"
+                    android:src="@drawable/log_out"
+                    android:background="@drawable/background1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+            </RelativeLayout>
+
+    </RelativeLayout>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+        android:id="@+id/reportbtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/report"
+        android:text="@string/report_problem"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:paddingTop="24dp"
+        android:textSize="12dp"
+        android:textColor="@color/White"/>
+    </RelativeLayout>

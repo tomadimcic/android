@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dunavnet.com.mojbac"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="idm-dnet.dunavnet.eu" android:path="/verify" />
+                <data android:scheme="https" android:host="mobile.example.com" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".activities.LoginActivityNew"
+            android:windowSoftInputMode="stateUnchanged"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".activities.SigninActivity"
+            android:windowSoftInputMode="stateUnchanged"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".activities.ChangeActivity"
+            android:windowSoftInputMode="stateUnchanged"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".activities.ForgotActivity"
+            android:windowSoftInputMode="stateUnchanged"
+            android:label="@string/title_activity_signin" >
+        </activity>
+
+        <activity
+            android:name=".activities.ResendActivity"
+            android:windowSoftInputMode="stateUnchanged"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".activities.ResetPasswordActivity"
+            android:windowSoftInputMode="stateUnchanged"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name=".activities.MainActivityList"
+            android:label="@string/title_activity_main_activity_list" >
+        </activity>
+        <activity
+            android:name=".activities.ReportActivity"
+            android:label="@string/title_activity_report"
+            android:windowSoftInputMode="stateUnchanged" >
+        </activity>
+        <activity
+            android:name=".activities.CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:windowSoftInputMode="stateUnchanged" >
+        </activity>
+        <activity
+            android:name=".activities.GalleryActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activities.MapPositioningActivity"
+            android:label="@string/title_activity_map_positioning" >
+        </activity>
+        <activity
+            android:name=".activities.BaseMainActivity"
+            android:label="@string/title_activity_base_main"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+
+</manifest>

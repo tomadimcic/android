@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">mojNS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Podešavanja</string>
+
+    <string name="version">Verzija 1.8</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main_activity_list">MainActivityList</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="set_location">Izaberite lokaciju</string>
+    <string name="toolbox_report">Nova prijava</string>
+    <string name="toolbox_report_msg">*Možete da vučete marker</string>
+    <string name="toolbox_myevents">Moje prijave</string>
+    <string name="reported_problems">Prijavljeni problemi</string>
+    <string name="empty_events_list">Prazna lista prijavljenih dogadjaja</string>
+    <string name="contacting_server">Povezivanje sa serverom...</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="profile_title">Moj profil</string>
+    <string name="profile_report_mandatory_fields">Morate da popunite sva polja vašeg profila kako biste podneli prijavu!</string>
+    <string name="profile_report_alert">Kako biste poslali prijavu morate popuniti sva polja vašeg profila. Da biste izvrsili anonimnu prijavu, molim vas poyovite 021 / 4872 544</string>
+    <string name="profile_message">Vaše prijave će imati veći prioritet ako popunite kontakt informacije.</string>
+    <string name="firstname">Ime: *</string>
+    <string name="entername">Unesite ime</string>
+    <string name="lastname">Prezime: *</string>
+    <string name="entersurname">Unesite prezime</string>
+    <string name="email">E-mail: *</string>
+    <string name="enteremail">Unesite email</string>
+    <string name="phonenumber">Broj telefona:</string>
+    <string name="enterphonenumber">Unesite broj telefona</string>
+    <string name="submitButton">Sačuvaj</string>
+    <string name="cancelButton">Odustani</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+    <string name="report_title">Nova prijava</string>
+    <string name="next">Sledeće</string>
+    <string name="report">Pošalji</string>
+    <string name="report_problem">PRIJAVI PROBLEM</string>
+    <string name="topic">Tema: </string>
+    <string name="problem">Problem: *</string>
+    <string name="date">Datum: </string>
+    <string name="expiration">Exp date: </string>
+    <string name="commenthint">Upišite Vaš komentar ovde</string>
+    <string name="selectdate">Select date...</string>
+    <string name="selectexpdate">Select exp date...</string>
+    <string name="comment">Komentar: </string>
+    <string name="address">Adresa: </string>
+    <string name="addresshint">Unesite adresu..</string>
+    <string name="position">Postavite poziciju</string>
+    <string name="locating">Lociranje!</string>
+    <string name="gps_warning">Želite li da osposobite GPS?</string>
+    <string name="no">Ne</string>
+    <string name="settings">Podešavanja</string>
+
+    <string name="succesfully_signin">Poslat je konfirmacioni mail na vašu email adresu!</string>
+    <string name="succesfully_signin_title">Uspešno registrovan</string>
+    <string name="succesfully_signin_message">Molim vas da proverite mail kako biste aktivirali nalog!</string>
+    <string name="succesfully_forgot_message">Molim vas da proverite mail kako biste resetovali lozinku!</string>
+    <string name="succesfully_change_message">Lozinka je uspešno promenjena!</string>
+    <string name="succesfully_reset_message">Lozinka je uspešno promenjena!</string>
+    <string name="not_succesfully_signin_title">Neuspešno registrovan</string>
+    <string name="not_succesfully_signin_message_1">Email vec postoji. Ukoliko ste zaboravili lozinku molim vas idite na link za zaboravljenu lozinku!</string>
+    <string name="not_succesfully_signin_message_2">Nije moguce kreirati korisnika!</string>
+
+    <string name="mail_confirmed">Mail potvrdjen</string>
+
+    <string name="succesfully_changed_title">Uspešno promenjeno</string>
+
+    <string name="succesfully_reset_title">Promeni</string>
+
+    <string name="forgot_title">Mail je poslat</string>
+    <string name="error">Greška</string>
+
+    <string name="remember">Zapamti</string>
+    <string name="stay_logged_in">Ostani ulogovan</string>
+
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+
+    <string name="username_et">email</string>
+    <string name="password_et">lozinka</string>
+
+    <string name="login">Uloguj se</string>
+    <string name="register">Registracija</string>
+    <string name="about">O projektu</string>
+    <string name="change">Promena lozinke</string>
+    <string name="forgot">Zaboravljena\nlozinka</string>
+    <string name="resend">Niste dobili email za potvrdu registracije?</string>
+    <string name="reset">Promeni</string>
+    <string name="terms_and_conditions_checkbox">Slažem se sa </string>
+    <string name="terms_and_conditions"><u>Uslovima korišćenja</u></string>
+
+    <string name="old_password">Stara lozinka</string>
+    <string name="new_password">Nova lozinka</string>
+    <string name="confirme_password">Potvrdite\nlozinku</string>
+    <string name="old_password_et">stara lozinka</string>
+    <string name="change_btn">Promeni</string>
+
+    <string name="forgot_btn">Pošalji</string>
+
+    <string name="mail_already_confirmed">Mail je već potvrdjen</string>
+    <string name="not_registered">Morate se prvo registrovati</string>
+    <string name="not_logged">Morate se barem jednom ulogovati kako biste mogli da promenite lozinku</string>
+
+    <string name="error_empty_user_pass">Molim vas popunite prazna polja!</string>
+    <string name="error_empty_email">Molim vas unesite email</string>
+    <string name="error_pass_lenght">Lozinka mora da sadrži najmanje 6 karaktera</string>
+    <string name="error_pass_confirmed">Lozinka i potvrdjena lozinka se ne podudaraju</string>
+    <string name="error_no_user">Email ili lozinka nisu pronadjeni!</string>
+    <string name="error_email_not_confirmed">Email nije potvrdjen! Molim vas proverite vaš email.</string>
+    <string name="error_email_not_found">Email nije pronadjen.</string>
+    <string name="error_reset_message">Lozinka nije promenjena! Dogodila se greška!</string>
+    <string name="error_change_message">Lozinka nije uspešno promenjena! Dogodila se greška!</string>
+    <string name="error_response">Greška u komunikaciji, molim vas pokusajte ponovo!</string>
+    <string name="error_terms">Da biste se registrovali morate da se složite sa uslovima korišćenja tako što ćete označiti checkbox</string>
+
+    <string name="picturechoicemessage">Izaberi opciju za dodavanje slike</string>
+    <string name="deletephoto">Obriši sliku</string>
+    <string name="fromgallery">Izaberi iz Galerije</string>
+    <string name="takepict">Uključi kameru</string>
+    <string name="picturechoicetitle">Dodajte sliku</string>
+
+    <string name="gallery_title">Slike iz galerije</string>
+    <string name="done">Završeno</string>
+    <string name="dateSliderTitle">Izaberite datum</string>
+
+    <string name="datecomprobation">The exp date is before the start date</string>
+    <string name="datecomprobation2">The exp date is before today</string>
+    <string name="emptyfield">Molimo vas da popunite sva obavezna polja</string>
+    <string name="nointernetaccess">Make sure that you have internet access</string>
+    <string name="marker_position">Pozicija problema</string>
+
+    <string name="okButton">OK</string>
+    <string name="communication_error">Nema komunikacije sa serverom</string>
+    <string name="published">Vaša prijava je uspešno poslata!</string>
+    <string name="could_not_publish">Vaša prijava nije uspešno poslata...pokušajte ponovo!</string>
+    <string name="title_activity_map_positioning">Mapa</string>
+
+    <string name="my_events_time">Vreme: </string>
+    <string name="my_events_date">Datum</string>
+    <string name="my_events_description">Opis</string>
+    <string name="my_events_status">Status:</string>
+
+    <string name="about_txt">
+        Ovde možete napraviti nalog koji će Vam omogućiti pristup servisima realizovanim u okviru CLIPS projekta (www.clips-project.eu) u opštinama Novi Sad, Bač i Odžaci.\n\nCLIPS pilot projekat želi da vam pokaže kako „cloud“ tehnologija primenjena na gradskim (opštinskim) servisima može dovesti do njihove optimizacije i kako može olakšati građanima upotrebu ovih servisa.\nNekoliko servisa je obuhvaćeno pilot projektom, kao i nekoliko opština u Vojvodini: grad Novi Sad i opštine Bač i Odžaci.\n\n1. Novi Sad: Pristup evidenciji računa objedinjene naplate u JKP Informatika na clips.dunavnet.eu\nNa primeru JKP Informatika, „cloud“ tehnologija omogućiće Vam da pristupite evidenciji vaših računa kod JKP Informatika i da proverite njihov status. Zatim, da umesto odlaska u kancelarije JKP Informatika možete elektronski, samostalno da promenite broj članova domaćinstva ukoliko je do promene došlo, a vaši računi će se automatski prilagoditi broju članova domaćinstva. Takođe, možete pogledati i pregled komunalne opremljenosti novosadskih ulica kao i ponude osiguravajućih kuća, a ubuduće će biti dostupna i opcija plaćanja računa elektronski.\n\nKlikom na dugme „Registracija“ bićete upućeni na stranicu na kojoj možete kreirati vaš nalog za pristup portalu. Nakon registracije, možete pristupiti clips.dunavnet.eu gde ćete popuniti podatke o svom stanu i nakon toga ćete moći da pristupite svojim računima i ostalim funkcijama servisa.\n\n2. Novi Sad: Platforma koja sadrži javno dostupne podatke grada Novog Sada\n\nAko ste kompanija ili „freelance developer“ i želite da iskoristite „open data“ koje gradska uprava Novog Sada daje, pristupite ckan-clips.dunavnet.eu i istražite mogućnosti uključivanja pretrage „open data“ u Vašu aplikaciju ili servis. Svi ostali mogu da vide podatke o komunalnoj opremljenosti pojednih gradskih zona na osnovu podataka koje JKP Informatika ima.\n\n3. Novi Sad, Bač, Odžaci: Prijava komunalnih problema putem mobilne aplikacije\nU okviru projekta CLIPS kreirane su mobilne aplikacije za pametne telefone putem kojih je moguće prijaviti neki od komunalnih problema u zajednici, domaćinstvu, na ulici, u gradu:\n\n-mojNS: aplikacija omogućava prijavu određenih komunalnih problema odgovarajućim gradskim službama. Svaka prijava se prosleđuje gradskom dispečerskom centru Komunalne policije grada, a odatle nadležnim službama.\n\n-mojBač i mojiOdžaci: aplikcije za brzo i jednostavno prijavljivanje komunalnih problema uz dodatnu kategoriju za prijavu tzv. „situacioni centar“ putem koje se mogu prijaviti vremenske neprilike, zemljotres, poplave i sl.\n\nViše detalja o CLIPS projektu možete naći na www.clips-project.eu.
+    </string>
+    <string name="terms_txt"><b>Izjava o privatnosti CLIPS Portala</b>\n\nCLIPS portal (u daljem tekstu: Portal) poštuje vašu privatnost i posvećen je zaštiti podataka o ličnosti koje nam dostavite. Želeli bismo da vas upoznamo sa sledećim principima kojima je uređena naša politika privatnosti.\n\n
+                            <b>Politika zaštite podataka o ličnosti</b>\n\nZajemčena je zaštita podataka o ličnosti. Prikupljanje, držanje, obrada i korišćenje podataka o ličnosti vrše se u skladu sa Zakonom o zaštiti podataka o ličnosti ("Službeni glasnik RS", br. 97/08). Podaci o ličnosti se neće koristiti izvan svrhe za koju su prikupljeni, osim za potrebe vođenja krivičnog postupka ili zaštite bezbednosti Republike Srbije, na način predviđen zakonom. Preduzete su sve potrebne mere zaštite podataka, u skladu sa utvrđenim standardima i postupcima, a koje su potrebne da bi se podaci zaštitili od gubitka, uništenja, nedopuštenog pristupa, promene, objavljivanja i svake druge zloupotrebe.
+                            Prikupljene informacije ne daju se na uvid, niti se razmijenjuju, s drugim organizacijama koje su izvan sistema pripreme i uređivanja Portala, osim u slučajevima predviđenim zakonom. Podaci se neće koristiti u svrhe koje nisu u skladu sa zakonom niti na bilo koji drugi način koji bi mogao da bude štetan po vas uključujići i narušavanje vaše privatnosti.
+                            Lice ima pravo da pristanaka za na obradu podataka o ličnosti opozove u skladu sa Zakonom o zaštiti podataka o ličnosti.\n\n
+                            <b>Podaci koje prikupljamo</b>\n\nPrikupljamo lične podatke kao što su ime, JMBG, adresa, telefonski broj ili e-mail adresa samo kada nam se dobrovoljno dostave ponuđenim obrascima ili drugim načinom komunikacije, isključivo u svrhe udovoljenja zahteva zahtevima korisnika, kako bismo mogli pružiti uslugu koju je korisnik zatražio.
+                            Takođe prikupljamo podatke o korišćenju Portala (cookies - kolačić) i druge tehničke podatke koji nisu lične prirode, a koji nam omogućavaju da učinimo vaše posete Portalu lakšim, efikasnijim i isplativijim tako što vam pružamo korisnički prilagođen pristup i prepoznajemo vas kada se vratite na Portal.
+                            Kolačić je mali fajl sa podacima koji se prenosi sa Portala na hard disk vašeg kompjutera. Portal šalje kolačić kad ga posećujete, plaćate, tražite ili personalizujete Portal, ili se registrujete za određene usluge. Kolačić ne može da čita lične podatke sa vašeg hard diska ili da čita fajlove kolačića koje su stvorili drugi sajtovi. Podatke koje kolačić može da sadrži su samop oni koje ste sami dostavili. Prihvatanje kolačića koji se koriste na Portalu nam omogućava da dobijemo informacije o vašim pretraživačkim navikama, koje možemo koristiti kako bi personizovali vaše delovanje i ustanovili modele kretanja korisnika. Ovo činimo u cilju utvrđivanja korisnosti informacija sa Potala za korisnike i radi ustanovljenja efikasnosti našeg navigacionog sistema u pomaganju korisnicima da dođu do tih informacija.
+                            Kolačići se po pravilu klasifikuju kao kolačići "sesije" ili "trajni" kolačići. Kolačići sesije se ne zadržavaju na vašem računaru nakon što ste zatvorili pretraživač. Trajni kolačići se zadržavaju na vašem računaru dok ih ne izbrišete ili dok im ne istekne rok trajanja.
+                            U cilju poboljšavanja i prilagođavanja Portala vašim potrebama, sakupljamo podatke koji nisu lične prirode, npr. podatke o vrsti programa za pretraživanje, operativnom sistemu i stranicama koje ste posetili.
+                            Portal obezbeđuje sigurnost podataka koje nam dostavljate putem industrijski standardizovanih fizičkih, elektronskih i upravljačkih procedura. Kad je to potrebno, Portal koriste koristi SSL – enkripciju kako bi povećao sigurnost prenosa osetljivih podataka. Unutar Portala podaci se čuvaju u na kontrolisanim serverima sa ograničenim pristupom.\n\n
+                            <b>Ostalo</b>\n\nSvako korišćenje Portala podložno je uslovima i pravilima opisanim na ovoj stranici.
+                            Ako imate pitanja ili nedoumice u vezi sa našim prikupljanjem, korišćenjem ili otkrivanjem vaših ličnih podataka, molimo da nas kontaktirate na e-mail adresu: clips@nsinfo.co.rs.
+                            Sadržaj izjave o privatnosti Portala možemo promeniti u bilo koje vreme bez prethodne najave i saglasnosti korisnika. Svaka promena izjave o privatnosti Portala biće objavljena na ovoj stranici.
+    </string>
+
+</resources>

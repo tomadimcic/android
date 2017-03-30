@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="animation_color_1" type="id"/>
+    <item name="animation_color_2" type="id"/>
+    <item name="animation_color_3" type="id"/>
+    <item name="animation_color_4" type="id"/>
+    <item name="animation_color_5" type="id"/>
+    <item name="animation_color_6" type="id"/>
+    <item name="animation_color_7" type="id"/>
+    <item name="animation_color_8" type="id"/>
+    <item name="animation_color_9" type="id"/>
+    <item name="animation_color_10" type="id"/>
+    <item name="selected_view" type="id"/>
+    
+    <item name="actionbar_add" type="id" />
+    <item name="actionbar_alarm" type="id" />
+    <item name="actionbar_edit" type="id" />
+    <item name="actionbar_cancel" type="id" />
+    <item name="actionbar_settings" type="id" />
+    <item name="actionbar_ok" type="id" />
+    <item name="actionbar_delete" type="id" />
+    <item name="actionbar_status" type="id" />
+    <item name="actionbar_save" type="id" />
+
+</resources>

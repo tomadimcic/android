@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpaper" >
+
+    <LinearLayout
+        android:id="@+id/toolbarlinearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/toolbarlinearlayout"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="0dip"
+                android:layout_weight="0.75"
+                android:gravity="center"
+                android:text="Naziv"
+                android:textColor="#000"
+                android:textSize="25dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="30dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/cameraBtn"
+                android:layout_width="85px"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="bottom"
+                android:src="@drawable/ico_address" />
+
+            <TextView
+                android:id="@+id/adresa"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="0.75"
+                android:gravity="left"
+                android:text="Ulica i broj, Grad"
+                android:textColor="#000"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/cameraBtn"
+                android:layout_width="85px"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="bottom"
+                android:src="@drawable/icotelefon" />
+
+            <TextView
+                android:id="@+id/telefon"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="0.75"
+                android:gravity="left"
+                android:text="Telefon"
+                android:textColor="#000"
+                android:textSize="15dip" />
+
+            <ImageButton
+                android:id="@+id/callBtn"
+                android:layout_width="85px"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="bottom"
+                android:src="@drawable/selector_icon_phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/cameraBtn"
+                android:layout_width="85px"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="bottom"
+                android:src="@drawable/iconstolica" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="0.75"
+                android:gravity="left"
+                android:text="Email"
+                android:textColor="#000"
+                android:textSize="15dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/cameraBtn"
+                android:layout_width="85px"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="bottom"
+                android:src="@drawable/icovreme" />
+
+            <TextView
+                android:id="@+id/radno_vreme"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="0.75"
+                android:gravity="left"              
+                android:textColor="#000"
+                android:textSize="15dip" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_weight="0.1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/opis"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_opis"
+                android:src="@drawable/button_opis" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/topic5"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:layout_weight="0.75"
+                android:gravity="center"
+                android:text="Ocena kafane"
+                android:textColor="#fff"
+                android:textSize="20dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RatingBar
+                android:id="@+id/ocena_kafane"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.4"
+                android:stepSize="0.51" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/topic6"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="0.75"
+                android:gravity="center"
+                android:text="Ocena atmosfere"
+                android:textColor="#fff"
+                android:textSize="20dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RatingBar
+                android:id="@+id/ocena_atmosfere"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="2.1"
+                android:stepSize="0.51" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

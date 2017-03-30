@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customshape" >
+
+    <TextView
+        android:id="@+id/controller_name2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textColorHint="#666666"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="4dp"
+        android:layout_alignBaseline="@+id/alarm_radioButton2"
+        android:layout_alignBottom="@+id/alarm_radioButton2"
+        android:layout_toRightOf="@+id/alarm_radioButton2" />
+
+    <RadioButton
+        android:id="@+id/alarm_radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/controller_name2"
+        android:text="Once" />
+
+    <RadioButton
+        android:id="@+id/alarm_radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/alarm_radioButton1"
+        android:layout_alignBottom="@+id/alarm_radioButton1"
+        android:layout_toRightOf="@+id/alarm_radioButton1"
+        android:text="Every day" />
+
+    <TextView
+        android:id="@+id/time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/controller_name2"
+        android:layout_toRightOf="@+id/controller_name2"
+        android:layout_alignTop="@+id/controller_name2"
+        android:textSize="25sp"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/delete_imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox2"
+        android:layout_toRightOf="@+id/checkBox2"
+        android:src="@drawable/actionbar_cancel_selector" />
+    
+
+</RelativeLayout>

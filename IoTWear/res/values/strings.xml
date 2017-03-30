@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IoT Wear</string>
+    <string name="action_settings">Settings</string>
+    <string name="advanced_settings">Advanced settings</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Settings options list -->
+    <string name="add_new_device">Add new controller</string>
+    <string name="add_new_device_sub">Select network and add new controller</string>
+    <string name="scan_network_for_devices">Scan network</string>
+    <string name="scan_network_for_devices_sub">Search for controllers on wireless network</string>
+    <string name="send_device_list">Send controller list</string>
+    <string name="send_device_list_sub">Send controller list to master controller</string>
+    <string name="set_control_list">Devices info</string>
+    <string name="set_control_list_sub">Devices description (ssid, mac, ip...)</string>
+    <string name="empty_device_list">No devices synced with this device.</string>
+    <string name="default_ip_address">192.168.1.135</string>
+
+    <string-array name="seconds_array">
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="zero_based_seconds_array">
+        <item>0</item>
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="crossfade_based_third_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    
+    
+    <string-array name="navigation">
+        <item name="nav_devices">Devices</item>
+        <item name="nav_colors">Colors</item>
+        <item name="nav_animations">Animations</item>
+        <item name="nav_favourites">Favourites</item>
+        <item name="nav_settings">Settings</item>
+    </string-array>
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="name">Name</string>
+    <string name="ssid">SSID</string>
+    <string name="change_ssid">CHANGE</string>
+    <string name="controllers">Controllers</string>
+    <!--
+          ***************************
+	     About information
+	     ***************************
+    -->
+
+
+    <!-- Automatically filled in by Launchpad: -->
+    <string name="about_translators">translator-credits</string>
+
+    <!-- Strings for OI About -->
+    <string name="about_comments">OpenIntents Color Picker is an extension for OI Flashlight and other compatible applications.</string>
+
+    <!--
+         ***************************
+	     Application-specific strings
+	     ***************************
+    -->
+    <!-- Name of application. Can be localized. OI = OpenIntents should stay unmodified. -->
+
+
+    <!-- Title of the color picker activity. -->
+    <string name="color_picker">Color picker</string>
+    <string name="recent_colors_condensed">Recent</string>
+    <string name="recent_colors">Recent colors</string>
+    <string name="recent_colors_expanded">Recently chosen colors</string>
+    <string name="recent_colors_clear_history">Clear</string>
+    <string name="recent_colors_empty">There are no recently chosen colors.</string>
+    <string name="confirm_color_title">Use color?</string>
+    <string name="confirm_color_message">Use this new color? You can avoid this message by clicking on the center circle.</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="aboutapp_not_available">Version %s\n\nNo compatible extension available to display full info (contact, credits, license).</string>
+    <string name="aboutapp_get">Get OI About</string>
+
+    <!-- Update -->
+    <string name="update_error">Download application not available.</string>
+
+    <!--
+         ***************************
+	     Distribution
+	     ***************************
+    -->
+    <!-- Message how to use OI Color Picker from within OI Flashlight. -->
+    <string name="info_app_flashlight">To select a color in OI Flashlight, press menu > Color.</string>
+    <string name="title_app_flashlight">OI Flashlight</string>
+    <string name="info_app_spiral_wallpaper">Hypnotic, animated spiral Live Wallpaper.</string>
+    <string name="title_app_spiral_wallpaper">HypnoTwister Live Wallpaper</string>
+    <string name="info_app_bettr_flickr">Native Flickr interface for Android</string>
+    <string name="title_app_bettr_flickr">BettrFlickr</string>
+    <string name="info_app_character_gen">Mix and match artwork to generate anime characters</string>
+    <string name="title_app_character_gen">Anime Character Generator</string>
+    <string name="info_activity_text">This app can be used with the following applications:</string>
+    <string name="info_launch">Launch %s</string>
+    <!-- %1$s is application name, %2$s is version name (e.g. "This app requires OI Notepad 1.2.0 or higher"). -->
+    <string name="info_not_available">This app requires %1$s %2$s or higher.</string>
+    <string name="info_get">Get %s</string>
+
+    <!--
+         ***************************
+	     About information
+	     ***************************
+    -->
+    <string name="about_copyright">Copyright © 2010-2012 OpenIntents</string>
+    <string name="about_website_url">http://www.openintents.org/en/colorpicker</string>
+    <string name="about_email">support@openintents.org</string>
+
+    <string-array name="about_authors"> <!-- Add your name here if you helped out -->
+        <item>Peli</item>
+        <item>Karl Ostmo</item>
+
+        <!-- The following item should always stay at the end -->
+        <item>The Android Open Source Project</item>
+    </string-array>
+    <string-array name="about_documenters"> <!-- Add your name here if you helped out -->
+        <!-- <item></item> -->
+    </string-array>
+    <string-array name="about_artists"> <!-- Add your name here if you helped out -->
+        <!-- <item></item> -->
+    </string-array>
+    <string-array name="about_translators"> <!-- Add your name here if you helped out, but only in the arrays.xml for the localization that you helped to translate into! -->
+        <!-- <item></item> -->
+    </string-array>
+
+    <!--
+         ***************************
+	     Distribution
+	     ***************************
+    -->
+
+
+    <!-- Update -->
+    <string name="update_app_url">market://search?q=pname:org.openintents.flashlight</string>
+    <string name="update_app_developer_url">http://www.openintents.org/en/flashlight</string>
+    <string name="update_checker_url">market://search?q=pname:org.openintents.updatechecker</string>
+    <string name="update_checker_developer_url">http://www.openintents.org/en/node/203</string> <!-- 203 = OI Update -->
+
+
+    <!-- About -->
+    <string name="aboutapp_market_uri">market://search?q=pname:org.openintents.about</string>
+    <string name="aboutapp_developer_uri">http://www.openintents.org/en/node/202</string> <!-- 202 = OI About -->
+    
+    
+    <!-- Preferences -->
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+     
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Update Settings</string>
+    
+    <!-- Scan -->
+    <string name="searchMultiple">Search more devices</string>
+    <string name="searchMultiple_sub">Search more controllers on the network</string>
+    
+    <!-- Port Settings -->
+    <string name="portRange">Set an port range that you want to search</string>
+    <string name="portRange_sub">Search more controllers on the network</string>
+    
+    <!-- IP Settings -->
+    <string name="ipRange">Set IP address and port</string>
+    <string name="ipRange_sub">Set port</string>
+    
+    <!-- Add device -->
+    <string name="addDevice">Configure controller</string>
+    <string name="addDevice_sub">Set the IP address, port , SSID and pass</string>
+    <string name="netTxt">Choose SSID and provide password if needed</string>
+    
+
+</resources>

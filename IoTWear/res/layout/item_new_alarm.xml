@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customshape" >
+
+        <ImageView
+            android:id="@+id/controller_icon1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/controller_name1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/controller_icon1"
+            android:layout_toRightOf="@+id/controller_icon1"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#666666"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_new_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="42dp"
+            android:layout_toRightOf="@+id/controller_name1" />
+        
+        <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/controller_name2"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" >
+        </RadioGroup>
+
+        <RadioButton
+            android:id="@+id/radioButton_new_alarm_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/controller_name1"
+            android:layout_below="@+id/controller_icon1"
+            android:text="On" />
+
+        <RadioButton
+            android:id="@+id/radioButton_new_alarm_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/controller_icon1"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@+id/radioButton_new_alarm_on"
+            android:text="Off" />
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iotwear.wear"
+    android:versionCode="3"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:name="LedApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.iotwear.wear.gui.LaunchActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iotwear.wear.gui.DeviceListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iotwear.wear.gui.AddDeviceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iotwear.wear.gui.ColorPickerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iotwear.wear.gui.SettingsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iotwear.wear.gui.AnimationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.FavouritesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.LEDControllerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.ControllerGridActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.DeviceControlsEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.GroupControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.AlarmControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.NewAlarmControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.ScanNetworkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.LoginActivity"
+            android:windowSoftInputMode="stateUnchanged"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.ShowDevicesInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.ICControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.DMXControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.LAMPControllerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iotwear.wear.gui.ColorPickerForLampActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iotwear.wear.gui.FavouritesLampActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+    </application>
+
+</manifest>

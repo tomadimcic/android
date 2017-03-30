@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/kafane_row" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#b11944" />
+      
+        <TextView
+	            android:id="@+id/ocena_final"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginTop="20dp"
+	            android:layout_marginRight="60dp"
+	            android:textColor="#ffffff"
+	            android:textSize="16sp" />
+        
+        <TextView
+	            android:id="@+id/brojGlasova"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginTop="50dp"
+	            android:layout_marginRight="54dp"
+	            android:textColor="#ffffff"
+	            android:textSize="10sp" 
+	            android:text="1222"/>
+        
+        <TextView
+	            android:id="@+id/brojGlasovaString"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toLeftOf="@+id/brojGlasova"
+	            android:layout_marginTop="50dp"
+	          
+	            android:textColor="#ffffff"
+	            android:textSize="10sp"
+	            android:text="@string/brojGlasova" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="90dp"
+            android:src="@drawable/ico_glas_lista" />
+        
+	    <!--    
+        <ImageView
+            android:id="@+id/arrow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/arrow_normal" />
+		
+        <ImageView
+            android:id="@+id/kafaneIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+            -->
+            
+        <ImageView
+            android:id="@+id/kafaneIcon"
+            android:layout_width="50dip"
+          	android:layout_height="50dip"
+          	android:layout_centerVertical="true"
+          	android:src="@drawable/ic_launcher"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dip" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/kafaneIcon"
+            android:layout_alignTop="@+id/kafaneIcon"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/kafaneIcon"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/kafane_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="#ffffff"
+	            android:textSize="14dp" />
+	        <TextView
+	            android:id="@+id/kafane_grad"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="#ffffff"
+	            android:textSize="11dp" />
+	        <TextView
+	            android:id="@+id/kafane_adresa"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="#ffffff"
+	            android:textSize="10dp" />
+        </LinearLayout>
+
+        <!--
+             <ToggleButton
+            android:id="@+id/powerButton"
+            style="@style/ToggleAppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/arrow" />
+        -->
+    </RelativeLayout>
+
+</LinearLayout>

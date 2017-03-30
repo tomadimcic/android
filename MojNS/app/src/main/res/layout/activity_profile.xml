@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="0dip"
+        android:background="#476798"
+        >
+
+        <RelativeLayout
+            android:id="@+id/titlesub"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="-5dip"
+            android:background="@drawable/panorama_tvrdjava"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/logo"
+                android:src="@drawable/logo"
+                android:background="@drawable/logo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/profile_title"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="80dp">
+            </TextView>
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:id="@+id/logout"
+                android:src="@drawable/log_out"
+                android:background="@drawable/background1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="14dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/firstname"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/profileName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_marginRight="17dp"
+            android:layout_below="@+id/textView1"
+            android:ems="10"
+            android:hint="@string/entername" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileName"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/lastname"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/profileLastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_marginRight="17dp"
+            android:ems="10"
+            android:hint="@string/entersurname" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/profileLastName"
+            android:layout_marginTop="10dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/email"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/profileEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView3"
+            android:layout_marginRight="17dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:editable="false"
+            android:hint="@string/enteremail"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/profileEmail"
+            android:layout_marginTop="10dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/phonenumber"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/profilePhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_marginRight="17dp"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_below="@+id/textView6"
+            android:hint="@string/enterphonenumber"/>
+
+
+        <Button
+            android:id="@+id/buttonEditProfile"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/profilePhone"
+            android:layout_marginTop="26dp"
+            android:text="@string/submitButton"
+            android:textColor="@color/White"
+            android:background="@drawable/green_btn"
+            android:layout_toLeftOf="@+id/buttonCancelProfile"/>
+
+        <Button
+            android:id="@+id/buttonCancelProfile"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/profilePhone"
+            android:layout_alignTop="@+id/buttonEditProfile"
+            android:text="@string/cancelButton"
+            android:background="@drawable/gray_btn"
+            android:textColor="@color/White"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="17dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/buttonEditProfile"
+            android:layout_marginTop="20dp"
+            android:textColor="#bcbcbc"
+            android:text="@string/profile_message"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

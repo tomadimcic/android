@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/group_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+
+         
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:background="@drawable/activitymain"
+	    android:gravity="center_horizontal"
+	    android:padding="2dp">
+	    
+	    <ImageView android:id="@+id/fly"
+	        android:layout_width="35dp"
+	        android:layout_height="25dp"
+	        android:layout_marginTop="10dip"
+	        android:layout_gravity="left"
+	        android:background="@drawable/muva"
+	        android:layout_marginLeft="20dip"/>
+	     
+	 
+	    <ImageButton
+	        android:id="@+id/kafane_btn"
+	        android:layout_width="195dip"
+	        android:layout_height="55dip"	      
+	        android:layout_marginTop="-8dip"
+	        android:background="@drawable/button_background_kafane"/>
+	    
+	    <ImageButton
+	        android:id="@+id/fotografije_btn"
+	        android:layout_width="215dip"
+	        android:layout_height="65dip"	        
+	        android:layout_marginTop="0dip"
+	        android:background="@drawable/button_background_fotografije"/>
+	    
+	    <ImageButton
+	        android:id="@+id/rezervacije_btn"
+	        android:layout_width="195dip"
+	        android:layout_height="55dip"
+	        android:layout_marginTop="0dip"
+	        android:background="@drawable/button_background_rezervacije"/>
+	        
+	    <ImageButton
+	        android:id="@+id/restorani_btn"
+	        android:layout_width="200dip"
+	        android:layout_height="80dip"
+	        android:layout_marginTop="0dip"
+	        android:background="@drawable/button_background_restorani"/>
+	             
+	    
+	</LinearLayout>
+	
+
+	
+	<include android:id="@+id/myid1" 
+	    android:layout_alignParentBottom="true"  
+	    layout="@layout/bottom_bar" 
+	    android:layout_width="fill_parent"
+		android:layout_height="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Action bar colors -->
+    <color name="ACTIONBAR_SIMPLE_BACKGRUND">#E4E4E4</color>
+    <color name="ACTIONBAR_BACKGRUND">#051943</color>
+    <color name="ACTIONBAR_MENU_DOTS">#6cbaed</color>
+    <color name="ACTIONBAR_ACTION_SELECTED">#6cbaed</color>
+    <color name="ACTIONBAR_OVERFLOW_MENU">#f5f5f5</color>
+    <color name="ACTIONBAR_OVERFLOW_MENU_SELECTED">#a3ccf3</color>
+    <color name="ACTIONBAR_OVERFLOW_MENU_TEXT_COLOR">#2d90ec</color>
+    
+    <color name="WHITE">#FFFFFF</color>
+
+</resources>
